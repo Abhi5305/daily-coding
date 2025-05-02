@@ -1,0 +1,10 @@
+package practice.practice;
+
+public class MyNode {
+    int data;
+    MyNode next;
+    MyNode(int data){
+        this.data = data;
+        this.next = null;
+    }
+}
