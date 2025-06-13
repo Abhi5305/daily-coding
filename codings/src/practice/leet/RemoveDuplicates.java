@@ -3,7 +3,7 @@ package practice.leet;
 public class RemoveDuplicates {
     public static void main(String[] args) {
         // From given sorted arrray, remove duplicate elements
-        int[] arr = new int[]{1,1,2,2,3,4,4,5};
+        int[] arr = new int[]{1,2,3,4,4,5};
         int lastIndex = removeDuplicatesFromSortedArray(arr);
         for(int i = 0; i < lastIndex; i++){
             System.out.println(arr[i]);

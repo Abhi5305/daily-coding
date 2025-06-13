@@ -19,7 +19,7 @@ public class CountPairs {
         Arrays.sort(arr);
         int l = 0;
         int r = arr.length-1;
-        while( l != r){
+        while( l < r){
             // -1,1,1,2,3
             if (arr[l] + arr[r] < target){
                 count += r-l;

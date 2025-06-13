@@ -12,6 +12,6 @@ public class rotateString {
 
     public static void main(String[] args) {
         String str = "abcdef";
-        System.out.println(rotateClockwise(str,9));
+        System.out.println(rotateClockwise(str,2));
     }
 }
